@@ -1,0 +1,275 @@
+@media (min-width:1178px) {
+    .labelLine{
+        margin-left:54% !important;
+    }   
+    .bestTrainersHeading .labelLine{
+        margin-left:60% !important;
+    }
+    .dietHeading .labelLine{
+        margin-left:58% !important;
+    }
+    .contactHeading .labelLine{
+        margin-left:58% !important;
+    }
+    .contactContent .contactInputs{
+        width:35%;
+        transform: translate(95%,22%);
+    }
+    .bestTrainersHeading,.dietHeading,.contactHeading{
+        margin-left: -8%;
+    }
+    .dietHeading,.contactHeading{
+        margin-left: -3%;
+    }
+    .bestTrainersHeading .labelDiscription{
+        margin-left:25% !important;
+    }
+}
+@media (max-width:1178px) {
+    .aboutContent{
+        display: flex;
+        flex-direction:column;
+    }
+    .aboutContent img{
+        width: 70%;
+        max-width:80%;
+        height: 600px;
+        margin-left:0;
+        box-shadow:var(--dark-shadow);
+    }
+    .aboutContent p{
+        width:70%;
+        max-width:80%;
+        margin-left:15%;
+        margin-top:10px;
+    }
+    .aboutContent #more{
+        margin:0% 0 2% 15%;
+    }
+    .heading{
+        margin-right:170px !important;
+    }
+    .label {
+        margin-left:45% !important;
+    }
+    .labelLine{
+        margin-left:45% !important;
+    }
+    .contactContent .contactInputs{
+        width:35%;
+        transform: translate(95%,22%);
+    }
+}
+@media (max-width:1038px) {
+    .header{
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #menuBar{
+        display:block;
+        padding: 10px 0px 0 80px;
+    }
+    #close{
+        display: none;
+        padding: 10px 0px 0 80px;
+    }
+    nav{
+        display:none;
+    }
+    nav a{
+        font-size: 2.3em;
+    }
+    .show{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+        background-color: var(--clr-primary-10);
+        width:100%;
+    }
+    nav a{
+        margin-bottom:30px;
+    }
+    .btns{
+        display: block;
+    }
+    .header{
+        padding: 10px 80px 0 80px;
+    }
+    .homeContent .mid p{
+        margin-top:20px;
+    }
+    .home_main .mid span{
+        margin-bottom:20px;
+    }
+    .homeContent .home_main{
+        margin-right:80px;
+    }
+    .aboutHeading{
+        margin-right:150px;
+    }
+
+    .workoutHeading{
+        margin-right:150px;
+    }
+    .aboutContent{
+        display: flex;
+        flex-direction:column;
+    }
+    .bestTrainersHeading .label{
+        margin-left:41% !important;
+    }
+    .label{
+        margin-left:50%;
+    }
+    .labelLine{
+        margin-left:50% !important;
+    }
+    .contactContent .contactInputs{
+        width:45%;
+        transform: translate(60%,22%);
+    }
+    .DietContent{
+        width:100%
+    }
+    .dietHeading .label{
+        margin-left:41% !important;
+    }
+    .dietHeading .labelLine{
+        margin-left:48% !important;
+    }
+    .DietContent .foodName{
+        margin-left:0 !important;
+    }
+    .food{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+    .food img{
+        width:80% !important;
+        height: 450px !important;
+        margin:60px 80px;
+    }
+    .foodInfo{
+        width:80% !important;
+        margin-left:40px;
+    }
+    .foodInfo p{
+        width:100% !important;
+    }
+    
+}
+
+@media (max-width:850px){
+    .header{
+        padding: 10px 40px 0 40px;
+    }
+    .homeContent .mid{
+        margin-top:120px;
+    }
+    .label{
+        font-size: 50px !important;
+        margin-left:45% !important;
+    }
+    .labelDiscription{
+        width: 100%;
+        margin-left: 35% !important;
+        font-size: 10px !important;
+    }
+    .labelLine{
+        margin-left:45% !important;
+    }
+    .aboutHeading .labelDiscription{
+        width:100%;
+        margin-left:38% !important;
+    }
+    .workoutHeading .labelDiscription{
+        width:100%;
+        margin-left:38% !important;
+    }
+    .bestTrainersHeading .label{
+        font-size: 50px !important;
+        margin-left:50% !important;
+    }
+    .bestTrainersHeading .labelLine{
+        width: 40px !important;
+        margin-left:52% !important;
+    }
+    .bestTrainersHeading .labelDiscription{
+        width:100%;
+        margin-left:28% !important;
+    }
+    .dietHeading .label{
+        font-size: 50px !important;
+        margin-left:40% !important;
+    }
+    .dietHeading .labelLine{
+        width: 40px !important;
+        margin-left:40% !important;
+    }
+    .dietHeading .labelDiscription{
+        width:100%;
+        margin-left:27% !important;
+    }
+    .contactHeading .label{
+        font-size: 50px !important;
+        margin-left:42% !important;
+    }
+    .contactHeading .labelLine{
+        width: 40px !important;
+        margin-left:42% !important;
+    }
+    .contactHeading .labelDiscription{
+        width:100%;
+        margin-left:37% !important;
+    }
+    .contactContent .contactInputs{
+        width:65%;
+        transform: translate(27%,22%);
+    }
+    .DietContent{
+        margin-left:0%;
+    }
+}
+@media (max-width:580px){
+    .contactContent .contactInputs{
+        width:80%;
+        transform: translate(15%,22%);
+    }
+}
+@media (max-width:440px){
+    .homeContent .mid span{
+        width:5px;
+        height: 40px;
+        margin-right:30px;
+        margin-left:20px;
+    }
+    .homeContent .mid p{
+        margin-top:20px;
+        font-size:1.3em;
+    }
+    .homeContent .home_main .title{
+        font-size:5.2em;
+    }
+    .contactContent .contactInputs{
+        width:90%;
+        transform: translate(5%,22%);
+    }
+    .contactContent .contactInputs input{
+        width:85%;
+        margin:10px 80px 10px 25px;
+    }
+    .contactContent .contactInputs #message{
+        width:85%;
+        margin:10px 80px 10px 25px;
+    }
+}
+
+

@@ -1,0 +1,143 @@
+.section{
+    width:100%;
+    margin-top:140px;
+}
+.label{
+    font-size:50px;
+    margin-left:40%;
+    animation-name: dropdown;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.label b{
+    color:var(--clr-primary-2);
+}
+.labelLine{
+    display: block;
+    height: 5px;
+    width:52px;
+    border-radius: 25px;
+    background-color:var(--clr-primary-2);
+    margin-left:52.5%;
+    margin-top:-5px;
+}
+.labelDiscription{
+    margin-left:30%;
+    margin-top:10px;
+}
+.someoneFamous{
+    width:350px;
+    height: 290px;
+    padding:10px 20px 10px 20px;
+    margin:20px 30px;
+    background-color: #222;
+    box-shadow:0 10px 15px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+.someoneFamous img{
+    width:100%;
+    height:60%;
+    filter: brightness(70%);
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+.someoneFamous:hover img{
+    filter: brightness(100%);
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.someoneName{
+    font-size:15px;
+    padding:10px 0 0 0;
+    color:var(--clr-primary-2);
+}
+.someoneDiscription{
+    font-size:15px;
+}
+.famousTrainer{
+    width:580px;
+    height: 450px;
+    padding:10px 20px 10px 20px;
+    margin:20px 10px;
+    background-color: #222;
+    box-shadow:0 10px 15px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+.famousTrainer img{
+    width:98%;
+    height:60%;
+    margin:20px 30px 5px 5px;
+    filter:grayscale(1);
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+.famousTrainer:hover img{
+    filter: brightness(100%);
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.trainerName{
+    font-size:18px;
+    padding:3px 0 0 0;
+    color:var(--clr-primary-2);
+}
+.trainerDiscription{
+    font-size:15px;
+}
+.nameLinks .links i{
+    font-size:10px;
+    padding: 7px 8px;
+    margin-left:4px;
+    margin-top:-10px;
+    border:1px solid white;
+    border-radius: 50%;
+    transition: 0.2s ease;
+}
+
+.nameLinks .links i:hover{
+    background-color:var(--clr-primary-2);
+    cursor: pointer;
+}
+.Explore{
+    width:120px;
+    height: 42px;
+    border: 3px solid var(--clr-primary-2);
+    color:var(--clr-primary-2);
+    background-color: transparent;
+    border-radius: 25px;
+    font-size:1em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.Explore:hover{
+    color:white;
+    background-color:var(--clr-primary-2);
+}
+.food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.food img{
+    width:470px;
+    height: 350px;
+    border:20px solid var(--clr-white);
+    border-radius: 10px;
+    margin:60px 80px;
+}
+.foodInfo{
+    width:40%;
+    margin-left:40px;
+}
+.foodName{
+    color: #233fdb;
+}
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.reverse .foodName{
+    color: #ec4e0f;
+}
